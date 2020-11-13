@@ -121,15 +121,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 
-EMAIL_BACKEND ='django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'rachit.saxena42@gmail.com'
-EMAIL_HOST_PASSWORD = 'suspectshot69*'
 
-AWS_ACCESS_KEY_ID = "AKIARZJ7XDEUP6KP6KX6"
-AWS_SECRET_ACCESS_KEY = "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"
+AWS_ACCESS_KEY_ID = "AKIARZJ7XDEUDKMVYYMF"
+AWS_SECRET_ACCESS_KEY = "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"
 AWS_STORAGE_BUCKET_NAME = 'graphics-buckets'
 AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
 AWS_S3_OBJECT_PARAMETERS = {
