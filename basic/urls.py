@@ -14,5 +14,6 @@ urlpatterns = (
     path('about/' , views.about , name='about'),
     path('protfolio-returns/', views.port , name='port'),
     path('certi/' , views.certi , name='certi'),
+    path('contact/' , views.contact , name= 'contact')
     
 )

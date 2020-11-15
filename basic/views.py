@@ -15,7 +15,7 @@ def homepage(request):
             l1.append(obj[i])
         else:
             break
-    print(l1)
+    
     params = {
         'obj' : l1,
         
@@ -76,7 +76,7 @@ def callBack(request):
 
 def product(request , pk):
     obj = Product.objects.get(id=pk)
-    print(obj)
+    
     params = {
         'obj': obj 
     }
@@ -108,3 +108,7 @@ def port(request):
         'product': product,
     }
     return render(request , 'basic/new/portfolioReturns.html' , params)
+
+
+def contact(request):
+    return render(request , 'basic/new/contactus.html')
